@@ -1,0 +1,154 @@
+yy* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{ font-family:
+     arial, sans-serif;
+     background-color: antiquewhite;
+    }
+
+   a{ text-decoration: none;}
+ 
+ .navbar{
+
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: black;
+ }
+
+ .navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+ }
+ .logo_title {
+    color: white;
+ }
+ 
+
+.navbar ul li a {
+    padding: 14px;
+    margin: 0 8px;
+    color: white;
+    
+
+}
+.navbar ul li a:hover {
+    color: white;
+    background-color: orange;
+    border-radius: 6px;
+}
+
+*{
+    margin: 0;
+}
+   
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    top: 70px;
+    bottom: 50px;
+}
+
+ h2{
+    
+    margin-top: -360px;
+    margin-left: 450px;
+    
+}
+strong  {
+    margin-left: 18px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.block img{
+    right:100px;
+    margin-top: 80px;
+    margin-left: 800px;
+    margin-bottom:60px;
+    
+}
+.object img{
+    margin-top: 227px;
+    margin-right:800px ;
+}
+
+.position h4 {
+    margin-bottom: -200px;
+}
+.arrange  {
+    margin-bottom: 100px;
+    margin-top:100px;
+}
+
+.object strong{
+    margin-left: 460px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+h4{
+    margin-top: -250px;
+    margin-left: 462px;
+    margin-bottom: 0px;
+
+}
+
+.object strong br {
+    margin-right: 300px;
+}
+
+footer{
+    border-top: 1px dashed;
+    width: 100%;
+    background: antiquewhite;
+    color:black;
+}
+
+.footer{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+    list-style-type: none;
+}
+h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.footer-contact{
+    padding: 8px,0 ;
+}
+.listes-services,
+.listes-horaires{
+    list-style-type: none;
+
+}
+.listes-services li {
+    padding: 2px, 0;
+
+}
+.listes-services a{
+    text-decoration: none;
+    color: #333;
+}
+.listes-services a:hover{
+    color: RGB(3,3,3);
+}
+
+
+.bloc-contact,
+.footer-contact{
+    margin-left: 30px;
+}
+
+    
